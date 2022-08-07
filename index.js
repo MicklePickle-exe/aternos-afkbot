@@ -24,9 +24,9 @@ async function reconnect() {
 }
 function createAFKBot() {
 	const bot = mineflayer.createBot({
-		host: CONFIG.host,
-		port: CONFIG.port,
-		username: CONFIG.username
+		host: PickleSMPNew.aternos.me,
+		port: 54699,
+		username: 247Bot
 	});
 
 
